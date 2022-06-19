@@ -1,11 +1,6 @@
 import {v1} from 'uuid';
 
-let users = [{
-    id: "3f963eb0-edb4-11ec-b19a-4d3d05379a01",
-    username: 'Pavel Trufanov',
-    age: 36,
-    hobbies: ['programming', 'music', 'cycling', 'snowboarding']
-}];
+let users = []
 
 export const findAll = async () => {
     return users;
